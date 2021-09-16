@@ -6,7 +6,7 @@ for(( flip = 1; flip <= nflips; flip++ ))
 do
     echo "Flip-$flip is "
     (( toss = RANDOM % 2 ))
-    case $toss in 
+    case $toss in
         0)
             echo "Heads"
             (( singlet[H]++ ))
