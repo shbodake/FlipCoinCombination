@@ -2,7 +2,6 @@
 echo "Enter number of times to flip a combination:" 
 read nflips
 declare -A singlet=( [H]=0 [T]=0 )
-echo "---------------------------singlet_combination---------------------------"
 for(( flip = 1; flip <= nflips; flip++ ))
 do
     echo "Flip-$flip is "
